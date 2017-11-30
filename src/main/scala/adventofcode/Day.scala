@@ -1,14 +1,10 @@
-package adventofcode.definition
+package adventofcode
 
 import java.io.PrintWriter
 
 import scala.io.Source
 
-sealed trait SubProblem
-case object A extends SubProblem
-case object B extends SubProblem
-
-abstract class Day(day: Int, subProblem: SubProblem) extends App {
+abstract class Day(day: Int) extends App {
 
   require(day >= 0 && day <= 25)
 
@@ -18,7 +14,7 @@ abstract class Day(day: Int, subProblem: SubProblem) extends App {
 
   private def readInput(): String = Source.fromFile(s"input/$formatted.txt").getLines().mkString(lineSeparator)
 
-  private def writeOutput(output: String): Unit = {
+  private def writeOutput(output: String, subProblem: SubProblem): Unit = {
     val sub = subProblem match {
       case A => "A"
       case B => "B"
@@ -27,14 +23,17 @@ abstract class Day(day: Int, subProblem: SubProblem) extends App {
       write(output)
       close()
     }
-    println(output)
   }
 
   protected val input: String = readInput()
 
-  protected val output: String
-
-  assert(output != null, "overriden output variable must be lazy")
-  writeOutput(output)
+  protected def solution(output: String, subProblem: SubProblem): Unit = {
+    writeOutput(output, subProblem)
+    println(output)
+  }
 
 }
+
+sealed trait SubProblem
+case object A extends SubProblem
+case object B extends SubProblem
