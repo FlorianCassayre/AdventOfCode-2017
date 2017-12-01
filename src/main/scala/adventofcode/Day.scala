@@ -6,7 +6,7 @@ import scala.io.Source
 
 abstract class Day(day: Int) extends App {
 
-  require(day >= 0 && day <= 25)
+  require(day >= 1 && day <= 25)
 
   protected val lineSeparator: String = "\n"
 
