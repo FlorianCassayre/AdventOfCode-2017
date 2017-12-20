@@ -22,7 +22,7 @@ _My solutions to the 2017 edition of [Advent Of Code](https://adventofcode.com).
 * [Day 17](https://adventofcode.com/2017/day/17): [solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day17.scala)
 * [Day 18](https://adventofcode.com/2017/day/18): [partial solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day18.scala)
 * [Day 19](https://adventofcode.com/2017/day/19): [solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day19.scala)
-* [Day 20](https://adventofcode.com/2017/day/20): –[](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day20.scala)
+* [Day 20](https://adventofcode.com/2017/day/20): [solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day20.scala)
 * [Day 21](https://adventofcode.com/2017/day/21): –[](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day21.scala)
 * [Day 22](https://adventofcode.com/2017/day/22): –[](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day22.scala)
 * [Day 23](https://adventofcode.com/2017/day/23): –[](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day23.scala)
