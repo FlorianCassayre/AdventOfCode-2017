@@ -27,7 +27,7 @@ _My solutions to the 2017 edition of [Advent Of Code](https://adventofcode.com).
 * [Day 22](https://adventofcode.com/2017/day/22): [solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day22.scala)
 * [Day 23](https://adventofcode.com/2017/day/23): [partial solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day23.scala)
 * [Day 24](https://adventofcode.com/2017/day/24): [solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day24.scala)
-* [Day 25](https://adventofcode.com/2017/day/25): –[](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day25.scala)
+* [Day 25](https://adventofcode.com/2017/day/25): [partial solution](https://github.com/FlorianCassayre/AdventOfCode-2017/blob/master/src/main/scala/adventofcode/solutions/Day25.scala)
 
 
 ## Testing
